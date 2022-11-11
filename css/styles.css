@@ -234,7 +234,6 @@ ul {
 }
 
 .about-us__services-title {
-  margin-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -364,6 +363,7 @@ ul {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer__logo {
