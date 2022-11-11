@@ -321,12 +321,49 @@ ul {
   fill: currentColor;
 }
 
+/* Our clients */
+
+.clients__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.clients__companies {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.clients__companies-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-fill);
+  border-radius: 4px;
+  fill: var(--icon-fill);
+}
+
+.clients__companies-item:hover,
+.clients__companies-item:focus {
+  fill: var(--color-accent);
+  border: 1px solid var(--color-accent);
+}
+
 /* Footer */
 
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color-dark);
+}
+
+.footer .container {
+  display: flex;
 }
 
 .footer__logo {
@@ -370,6 +407,36 @@ ul {
 .footer__link:hover,
 .footer__link:focus {
   color: var(--color-accent);
+}
+
+.footer__join-us {
+  margin-left: 70px;
+}
+
+.footer__paragraph {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__socials {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer .socials-container {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--icon-accent);
+}
+
+.footer .socials-container:hover,
+.footer .socials-container:focus {
+  background-color: var(--color-accent);
 }
 
 /* Portfolio */
